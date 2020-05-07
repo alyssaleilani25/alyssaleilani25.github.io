@@ -7,7 +7,8 @@
   </head>
   <style>
     body {
-      background-image: url(https://images.unsplash.com/photo-1576792254006-4f8b51ed204b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+      background-image: url(https://images.pexels.com/photos/3107165/pexels-photo-3107165.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+      background-repeat: no-repeat;
       background-size: cover;
       font-family: Trebuchet MS, sans-serif;
     }
@@ -17,7 +18,7 @@
       text-align: center;
       margin: auto;
       font-size: 40pt;
-      text-shadow: 2px 2px #181f41;
+      text-shadow: 3px 3px black;
       padding-bottom: 4px;
       line-height: 54pt;
     }
@@ -27,37 +28,38 @@
       text-align: center;
       margin: auto;
       font-size: 24pt;
-      text-shadow: 2px 2px #181f41;
+      text-shadow: 3px 3px black;
     }
 
     div {
-      background-image: linear-gradient(to bottom, #ffffff, #ffffff, #898ba7);
-      opacity: 80%;
+      background-image: linear-gradient(to bottom, #f2eae6, #f2eae6, #eab693);
+      opacity: 89%;
       color: black;
       border-radius: 4px;
-      padding: 30px;
-      margin: 20px 75px 30px 75px;
-      box-shadow: 2px 1.5px black;
-      line-height: 16pt;
+      padding: 25px 100px;
+      margin: 20px 20px 20px 40px;
+      line-height: 17pt;
+      box-shadow: 0 5px 7px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.24);
     }
 
     h3 {
-      color: #181f41;
+      color: #112560;
       font-size: 18pt;
-      text-shadow: 0.5px 0.5px black;
+      text-shadow: 0.6px 0.6px black;
       text-align: center;
     }
 
-    .tealAndPurple {
-      width: 400px;
+    .paintCups {
+      width: 200px;
       padding: 2px;
       border-style: solid;
       border-width: 4px;
-      border-color: #cf7057;
+      border-color: #cc5630;
       border-radius: 4px;
       display: block;
-      margin: 5px auto;
-      box-shadow: 2px 1.5px black;
+      margin: 4px auto;
+      box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.12),
+        0 1.5px 3.5px rgba(0, 0, 0, 0.24);
     }
 
     .blackAndWhite {
@@ -65,55 +67,57 @@
       padding: 2px;
       border-style: solid;
       border-width: 4px;
-      border-color: #cf7057;
+      border-color: #cc5630;
       border-radius: 4px;
       display: block;
-      margin: 5px auto;
-      box-shadow: 2px 1.5px black;
+      margin: 7px auto;
+      box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.12),
+        0 1.5px 3.5px rgba(0, 0, 0, 0.24);
     }
 
     span {
-      color: #5d00ed;
+      color: #3562e8;
     }
 
     a {
-      color: #5d00ed;
+      color: #3562e8;
     }
 
     .tryAtHome {
       font-size: 14pt;
       text-align: center;
       margin: 40px 0px 5px;
+      text-shadow: 0.4px 0.4px black;
     }
 
     button {
       display: block;
       margin: 30px auto;
-      background-color: #ffffff;
+      background-color: #f2eae6;
       padding: 18px 15px;
       border-radius: 12px;
-      font-size: 16pt;
-      color: #181f41;
-      box-shadow: 2px 1.5px black;
-      opacity: 85%;
+      font-size: 18pt;
+      color: #112560;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
+      opacity: 87%;
       font-family: Trebuchet MS, sans-serif;
       cursor: pointer;
-      border-color: #cf7057;
+      border-color: #cc5630;
       border-width: 3px;
       transition: all 300ms ease;
       outline: none;
     }
 
     button:hover {
-      background-color: #cf7057;
+      background-color: #cc5630;
       color: #ffffff;
     }
 
-    h5 {
+    h4 {
       font-weight: bold;
       color: #ffffff;
       text-align: center;
-      text-shadow: 0.75px 0.75px black;
+      text-shadow: 0.8px 0.8px black;
     }
   </style>
   <body>
@@ -121,9 +125,9 @@
     <h2>Create Your Own Abstract Art with Acrylic Pouring</h2>
     <div>
       <img
-        src="https://dc1240h7n7gpb.cloudfront.net/wp-content/uploads/Project2F82F42F84efc40e-92de-44b6-9d5e-7be9c07c88e02FMainPhoto.jpg"
-        class="tealAndPurple"
-        alt="Teal and Purple Pour"
+        src="https://images.pexels.com/photos/2983263/pexels-photo-2983263.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500g"
+        class="paintCups"
+        alt="Paint Cups"
       />
       <h3>What is Acrylic Pouring?</h3>
       <p>
@@ -192,7 +196,7 @@
       Take a Class with Me 👩🏼‍🎨
     </button>
     <hr />
-    <h5>Coded by: Alyssa Harper</h5>
+    <h4>Coded by: Alyssa Harper</h4>
   </body>
   <script>
     function takeAClass() {
@@ -201,11 +205,11 @@
       if (age >= 18) {
         let email = prompt("What is your email address?");
         alert(
-          `The adult class would be perfect for you ${name} 👍Check your inbox at ${email} for a schedule soon!`
+          `The adult class would be perfect for you ${name} 👍\nCheck your inbox at ${email} for the class schedule soon!`
         );
       } else {
         alert(
-          `Hi ${name} 👋Please have an adult call for more information. Hopefully we will paint together soon!`
+          `Hi ${name} 👋\nPlease have an adult call for more information.\nHopefully we will paint together soon!`
         );
       }
     }
